@@ -11,7 +11,7 @@ logging.basicConfig(
 # Get the directory of the current script
 script_dir = Path(__file__).resolve().parent
 
-FILES_DIRECTORY = script_dir.parent / "files"
+FILES_DIRECTORY = script_dir.parent.parent / "files"
 FILES_DIRECTORY.mkdir(parents=True, exist_ok=True)
 
 

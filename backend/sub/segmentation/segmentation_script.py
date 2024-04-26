@@ -6,7 +6,7 @@ from skimage import measure
 
 # import trimesh
 import logging
-from segmentation_model import UNet
+from .segmentation_model import UNet
 from pathlib import Path
 
 # Setup logging
@@ -22,7 +22,7 @@ TRAIN_DATASET_PATH = script_dir / "BraTS2020_TrainingData/BraTS20_Training_002"
 TRAIN_DATASET_PATH.mkdir(parents=True, exist_ok=True)
 
 MODEL_CHECKPOINT_PATH = script_dir / "final_model/model.pth"
-FILES_DIRECTORY = script_dir.parent / "files"
+FILES_DIRECTORY = script_dir.parent.parent / "files"
 FILES_DIRECTORY.mkdir(parents=True, exist_ok=True)
 
 
