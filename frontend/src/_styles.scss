@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "../node_modules/normalize.css/normalize.css";
+@import "styles/variables";
+@import "styles/mixins";
+@import "styles/keyframes";
+@import "styles/global";
+@import "styles/homepage";

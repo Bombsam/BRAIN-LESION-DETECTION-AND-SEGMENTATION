@@ -1,0 +1,15 @@
+{
+  "short_name": "Ali's Project",
+  "name": "Ali's Project",
+  "icons": [
+    {
+      "src": "./images/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000",
+  "background_color": "#fff"
+}
